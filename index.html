@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+    
+	<title> Class/Pas Class </title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+	<body>
+        <script type="text/javascript">
+  $(document).ready(function(){
+     $(".btn1").click(function(){
+         $(".carre, .cercle, .losange").addClass("test");
+     }); 
+      $(".btn2").click(function(){
+         $(".carre, .cercle, .losange").removeClass("test");
+     }); 
+      $(".cercle").click(function(){
+          $(this).toggleClass("test");
+      });
+       $(".carre").click(function(){
+           $(this).toggleClass("test");
+       });
+  });
+             
+ </script>
+        
+        <div class="colonne1">
+        <div class="carre "></div>
+        <div class="cercle "></div>
+        <div class="cercle "></div>
+        <div class="cercle "></div>
+        <div class="cercle "></div> 
+         </div>
+        <div id="colonne2">
+        <div class="cercle "></div>
+        <div class="carre "></div>
+        <div class="cercle "></div>
+        <div class="cercle "></div>
+        <div class="cercle "></div>
+          </div>
+          
+         <div id="colonne3">
+          <div class="cercle "></div>
+        <div class="cercle "></div>
+        <div class="losange "></div>
+        <div class="cercle "></div>
+        <div class="cercle "></div>
+         </div>
+             
+      
+         
+       <div id="colonne4">
+        <div class="cercle "></div>
+        <div class="cercle "></div>
+        <div class="cercle "></div>
+         <div class="carre "></div>
+         <div class="cercle "></div>
+ </div>
+        <div id="colonne5">   
+          <div class="cercle "></div>
+         <div class="cercle "></div>
+         <div class="cercle "></div>
+         <div class="cercle "></div>
+         <div class="carre"></div>
+ </div>
+         <input type="button" class="btn1" value="Changer" />
+         <input type="button" class="btn2" value="Changer2" />
+        
+        <p>AAAAAAAAAAAAAAA</p>
+      
+
+</body>
+</html>

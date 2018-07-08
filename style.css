@@ -1,0 +1,84 @@
+.losange{
+    height: 30px;
+    width: 30px;
+    
+    border:1px solid red;
+    -ms-transform: rotate(45deg); 
+    -moz-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg); 
+    -o-transform: rotate(45deg);
+}
+.cercle {
+    width: 73px;
+    height: 73px;
+    border-radius: 40px;
+   
+    border:1px solid red;
+}
+
+.carre{
+    height: 70px;
+    width: 70px;
+    
+    border:1px solid red;
+    -ms-transform: rotate(0deg); 
+    -moz-transform: rotate(0deg); 
+    -webkit-transform: rotate(0deg); 
+    -o-transform: rotate(0deg); 
+} 
+ 
+#colonne2 {
+    
+    
+    position: relative;
+    left: 90px;
+    top: -370px;
+    
+    
+}
+
+#colonne3 {
+    
+    
+    position: relative;
+    left: 190px;
+    top: -730px;
+}
+
+#colonne4 {
+    
+    
+    position: relative;
+    left: 290px;
+    top: -1070px;
+}
+
+#colonne5 {
+    
+    
+    position: relative;
+    left: 390px;
+    top: -1440px;
+}
+
+
+.btn1 {
+    font-size: 30px;
+    height: 50px;
+    width: 150px;
+}
+#btn2{
+    font-size: 30px;
+    height: 50px;
+    width: 150px;
+}
+
+p {
+    font-size: 20px;
+}
+
+ .test {
+    
+    background: yellow;
+}
+
